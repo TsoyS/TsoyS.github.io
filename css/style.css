@@ -468,7 +468,16 @@ header {
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .slogan {
+        font-size: 20px;
+    }
+    
+    .header-title {
+        font-size: 30px;
+    }
+
     .header-button {
+        width: 50%;
         font-size: 12px;
     }
 
