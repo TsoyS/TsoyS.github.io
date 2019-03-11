@@ -75,7 +75,9 @@ header {
 }
 
 .header-button {
+    display: block;
     padding: 15px 30px;
+    margin: 20px auto;
 
     font-size: 14px;
     font-weight: 400;
