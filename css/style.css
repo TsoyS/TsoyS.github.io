@@ -12,6 +12,12 @@ body {
 	margin: -1px;
 }
 
+.container,
+.container-fluid,
+section {
+    overflow-x: hidden;
+}
+
 /* -----Navigation----- */
 
 .main-navigation {
