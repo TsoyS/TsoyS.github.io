@@ -1,0 +1,267 @@
+html,
+body {
+  height: 100%;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.title-properties {
+  padding-top: 50px;
+
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.text-properties {
+  padding-bottom: 30px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.main-navigation {
+  background-color: #000;
+
+  .navbar-nav li a {
+    font-weight: bold;
+    color: #fff;
+
+    &:hover {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.header {
+  height: 100%;
+
+  background-image: url(../img/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .caption {
+    background-color: rgba(236, 239, 238, 0.5);
+  }
+
+  .title {
+    font-size: 60px;
+    color: #74c7d5;
+  }
+
+  .text {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    color: #74c7d5;
+    text-transform: uppercase;
+  }
+}
+
+.services {
+  background-color: #b24a50;
+
+  .title {
+    @extend .title-properties;
+  }
+
+  .description {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .text {
+    @extend .text-properties;
+  }
+
+  .service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    li {
+      width: 260px;
+      margin: 0 auto 30px;
+
+      background-color: #c45158;
+    }
+
+    .lightball {
+      background-image: url(../img/services-bg/researching.png);
+      background-repeat: no-repeat;
+      background-position: center 40px;
+    }
+
+    .design {
+      background-image: url(../img/services-bg/design.png);
+      background-repeat: no-repeat;
+      background-position: center 40px;
+    }
+
+    .development {
+      background-image: url(../img/services-bg/development.png);
+      background-repeat: no-repeat;
+      background-position: center 40px;
+    }
+
+    .launch {
+      background-image: url(../img/services-bg/launch.png);
+      background-repeat: no-repeat;
+      background-position: center 40px;
+    }
+
+    .service-title {
+      padding-top: 190px;
+
+      font-size: 30px;
+      color: #fff;
+    }
+
+    .service-text {
+      @extend .text-properties;
+    }
+  }
+}
+
+.about {
+  background-color: #665464;
+
+  .title {
+    @extend .title-properties;
+  }
+
+  .text {
+    @extend .text-properties;
+  }
+
+  .members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    li {
+      width: 260px;
+      margin: 0 auto 30px;
+
+      background-image: url(../img/about/user.png);
+      background-color: #5f4e5d;
+      background-repeat: no-repeat;
+      background-position: center 30px;
+
+      &:hover {
+        background-image: url(../img/about/user-hover.png);
+      }
+
+      .member-name {
+        padding-top: 195px;
+
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      .member-position {
+        font-size: 14px;
+        color: #a1ca6c;
+      }
+
+      .social-list {
+        display: flex;
+        justify-content: space-between;
+        width: 180px;
+        margin: 0 auto;
+        padding-bottom: 34px;
+
+        .social-item {
+          svg path {
+            fill: #a1859e;
+          }
+
+          .facebook:hover path,
+          .facebook:focus path {
+            fill: #4f689e;
+          }
+
+          .twitter:hover path,
+          .twitter:focus path {
+            fill: #74c7d5;
+          }
+
+          .google:hover path,
+          .google:focus path {
+            fill: #df5c64;
+          }
+
+          .linked:hover path,
+          .linked:focus path {
+            fill: #3e61af;
+          }
+        }
+      }
+    }
+  }
+}
+
+.portfolio {
+  background-color: #83a457;
+
+  .title {
+    @extend .title-properties;
+  }
+
+  .text {
+    @extend .text-properties;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 0;
+
+    list-style: none;
+
+    li {
+      padding-bottom: 15px;
+      margin: 0 auto;
+
+      img {
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: #68a097;
+
+  .social-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+
+    li {
+      padding-right: 10px;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}

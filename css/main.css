@@ -1,0 +1,198 @@
+html,
+body {
+  height: 100%;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.title-properties, .portfolio .title, .about .title, .services .title {
+  padding-top: 50px;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.text-properties, .portfolio .text, .about .text, .services .service-list .service-text, .services .text {
+  padding-bottom: 30px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.main-navigation {
+  background-color: #000;
+}
+.main-navigation .navbar-nav li a {
+  font-weight: bold;
+  color: #fff;
+}
+.main-navigation .navbar-nav li a:hover {
+  text-transform: uppercase;
+}
+
+.header {
+  height: 100%;
+  background-image: url(../img/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header .caption {
+  background-color: rgba(236, 239, 238, 0.5);
+}
+.header .title {
+  font-size: 60px;
+  color: #74c7d5;
+}
+.header .text {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  color: #74c7d5;
+  text-transform: uppercase;
+}
+
+.services {
+  background-color: #b24a50;
+}
+.services .description {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.services .service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.services .service-list li {
+  width: 260px;
+  margin: 0 auto 30px;
+  background-color: #c45158;
+}
+.services .service-list .lightball {
+  background-image: url(../img/services-bg/researching.png);
+  background-repeat: no-repeat;
+  background-position: center 40px;
+}
+.services .service-list .design {
+  background-image: url(../img/services-bg/design.png);
+  background-repeat: no-repeat;
+  background-position: center 40px;
+}
+.services .service-list .development {
+  background-image: url(../img/services-bg/development.png);
+  background-repeat: no-repeat;
+  background-position: center 40px;
+}
+.services .service-list .launch {
+  background-image: url(../img/services-bg/launch.png);
+  background-repeat: no-repeat;
+  background-position: center 40px;
+}
+.services .service-list .service-title {
+  padding-top: 190px;
+  font-size: 30px;
+  color: #fff;
+}
+.about {
+  background-color: #665464;
+}
+.about .members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.about .members li {
+  width: 260px;
+  margin: 0 auto 30px;
+  background-image: url(../img/about/user.png);
+  background-color: #5f4e5d;
+  background-repeat: no-repeat;
+  background-position: center 30px;
+}
+.about .members li:hover {
+  background-image: url(../img/about/user-hover.png);
+}
+.about .members li .member-name {
+  padding-top: 195px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.about .members li .member-position {
+  font-size: 14px;
+  color: #a1ca6c;
+}
+.about .members li .social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  margin: 0 auto;
+  padding-bottom: 34px;
+}
+.about .members li .social-list .social-item svg path {
+  fill: #a1859e;
+}
+.about .members li .social-list .social-item .facebook:hover path,
+.about .members li .social-list .social-item .facebook:focus path {
+  fill: #4f689e;
+}
+.about .members li .social-list .social-item .twitter:hover path,
+.about .members li .social-list .social-item .twitter:focus path {
+  fill: #74c7d5;
+}
+.about .members li .social-list .social-item .google:hover path,
+.about .members li .social-list .social-item .google:focus path {
+  fill: #df5c64;
+}
+.about .members li .social-list .social-item .linked:hover path,
+.about .members li .social-list .social-item .linked:focus path {
+  fill: #3e61af;
+}
+
+.portfolio {
+  background-color: #83a457;
+}
+.portfolio .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+.portfolio .portfolio-list li {
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+.portfolio .portfolio-list li img {
+  opacity: 0.5;
+}
+.portfolio .portfolio-list li img:hover {
+  opacity: 1;
+}
+
+.footer {
+  background-color: #68a097;
+}
+.footer .social-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.footer .social-list li {
+  padding-right: 10px;
+}
+.footer .social-list li:last-child {
+  padding-right: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
