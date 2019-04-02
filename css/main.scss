@@ -18,16 +18,14 @@ body {
   color: #fff;
 }
 
-.main-navigation {
-  background-color: #000;
+.navbar-dark .navbar-nav .nav-link {
+    padding-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
 
-  .navbar-nav li a {
-    font-weight: bold;
+  &:hover {
+    text-transform: uppercase;
     color: #fff;
-
-    &:hover {
-      text-transform: uppercase;
-    }
   }
 }
 
